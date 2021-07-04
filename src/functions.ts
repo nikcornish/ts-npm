@@ -17,3 +17,7 @@ const subtract = (a: number, b: number = 4) => a - b
 const c1 = subtract(9,5) // 4
 const c2 = subtract(5)   // 1
 console.log(c1, c2);
+
+// Function Return Types
+const add3 = (a: number, b: number, c:number): number => a + b + c
+const d1 = add3(3,3,3)
