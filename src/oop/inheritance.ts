@@ -17,8 +17,6 @@ class AnotherPerson  {
 }
 
 class Employee extends AnotherPerson {
-
-  employed: boolean;
   
   greet () {
     console.log('Hello fellow employee!'); 

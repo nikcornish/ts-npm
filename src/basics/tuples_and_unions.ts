@@ -6,8 +6,8 @@ var tupleArr : [number, string];    // tuple (order matters, 2 members only)
 var unionArr : (number|string)[];   // union (can be number or string)
 
 // incorrect
-tupleArr = ['test', 44]   // expects number first, string second
-unionArr = [false, true]  // expects either a string or a number
+// tupleArr = ['test', 44]   // expects number first, string second
+// unionArr = [false, true]  // expects either a string or a number
 
 // correct
 tupleArr = [2, 'test']

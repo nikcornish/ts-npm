@@ -10,4 +10,4 @@ b = undefined
 var c : number | string
 c = 10
 c = 'yeah!'
-c = false // not allowed, only number or string
+// c = false // not allowed, only number or string
