@@ -1,7 +1,7 @@
 // CLASSES
 // https://www.typescriptlang.org/docs/handbook/2/classes.html
 
-class Person {
+export class Person {
   
   firstName: string;
   lastName: string;
@@ -18,6 +18,6 @@ class Person {
 }
 
 var me = new Person('Nik', 'Cornish')
-var her = new Person(false, true) // error, constructor expects two strings, not two booleans
-console.log(me);
-console.log(me.getFullName());
+// var her = new Person(false, true) // error, constructor expects two strings, not two booleans
+// console.log(me);
+// console.log(me.getFullName());
