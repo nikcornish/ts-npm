@@ -1,4 +1,9 @@
+// ENUMS 
+// https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#enums
+
 // Enums are a set of named constants
+
+
 enum Months {
   SUMMER, AUTUMN, WINTER, SPRING
 }
